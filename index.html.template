@@ -15,9 +15,9 @@
         <div class="jumbotron d-flex text-center bg-light align-items-center min-vh-100 mt-center">
             <div class="container">
                 <div>
-                    <h2 class="display-6 my-5">WINCE</h2>
-                    <h1 class="display-1 my-5">CRIMP</h1>
-                    <h2 class="display-6 my-5">KNOLL</h2>
+                    <h2 class="display-6 my-5">{{prev}}</h2>
+                    <h1 class="display-1 my-5">{{cur}}</h1>
+                    <h2 class="display-6 my-5">{{next}}</h2>
                     <a href="https://github.com/cool-mist/WordleWords" target="_blank"><button type="button" class="btn btn-light"><i class="fa fa-github" style="font-size:3em"></i></button></a>
                 </div>
             </div>

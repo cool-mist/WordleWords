@@ -1,0 +1,8 @@
+[Unit]
+Description=Wordle Background Job
+
+[Service]
+User=glados
+RootDirectory=/home/glados/WordleWords
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/glados/WordleWords/genSite.py
