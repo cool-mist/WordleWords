@@ -1,0 +1,8 @@
+[Unit]
+Description=Wordle Background Job
+
+[Service]
+User={CURRENT_USER}
+WorkingDirectory=/{PATH_TO_REPO}/WordleWords/
+Type=oneshot
+ExecStart=/{PATH_TO_PYTHON}/python3 /{PATH_TO_REPO}/WordleWords/genSite.py

@@ -1,0 +1,12 @@
+[Unit]
+Description=Refresh the wordle solution
+RefuseManualStart=no
+RefuseManualStop=no
+
+[Timer]
+Persistent=true
+OnCalendar=daily
+Unit=wordle.service 
+
+[Install]
+WantedBy=timers.target
