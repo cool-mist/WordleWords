@@ -18,7 +18,16 @@
                     <h2 class="display-6 my-5">{{prev}}</h2>
                     <h1 class="display-1 my-5">{{cur}}</h1>
                     <h2 class="display-6 my-5">{{next}}</h2>
-                    <a href="https://github.com/cool-mist/WordleWords" target="_blank"><button type="button" class="btn btn-light"><i class="fa fa-github" style="font-size:3em"></i></button></a>
+                    <a href="https://github.com/cool-mist/WordleWords" target="_blank">
+                        <button type="button" class="btn btn-light">
+                            <i class="fa fa-github" style="font-size:3em"></i>
+                        </button>
+                    </a>
+                    <a href="https://blog.neophyte.me/random/2022/01/24/wordle/" target="_blank">
+                        <button type="button" class="btn btn-light">
+                            <i class="fa fa-info-circle" style="font-size:3em"></i>
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -26,4 +35,3 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
-tml>
