@@ -8,7 +8,7 @@ def parseWord(w):
     return x.group(1).upper()
 
 seed = "2022-01-23"
-seedIndex = 219
+seedIndex = 219 + 8
 seedDate = datetime.strptime(seed, "%Y-%m-%d")
 curDate = datetime.today()
 deltaDate = curDate - seedDate
